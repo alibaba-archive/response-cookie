@@ -1,0 +1,33 @@
+{
+  "name": "response-cookie",
+  "version": "0.0.1",
+  "description": "cookie helpers for response.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/response-cookie.git"
+  },
+  "keywords": [
+    "cookie",
+    "connect",
+    "response",
+    "setCookie",
+    "express"
+  ],
+  "author": "fengmk2 <fengmk2@gmail.com>",
+  "dependencies": {
+    "cookie": ">=0.0.4"
+  },
+  "devDependencies": {
+    "connect": "*",
+    "mocha": "*",
+    "supertest": "*"
+  },
+  "license": "MIT"
+}
