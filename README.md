@@ -14,13 +14,8 @@ $ npm install response-cookie
 ### Use with `connect`
 
 ```js
-var cookie = require('response-cookie');
-
 connect(
-  function (req, res, next) {
-    cookie(res);
-    next();
-  },
+  require('response-cookie')(),
   function (req, res) {
     res.clearCookie('oldCookie');
     res.cookie('foo', 'My name is cookie.');
