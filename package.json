@@ -27,6 +27,7 @@
   "devDependencies": {
     "connect": "*",
     "mocha": "*",
+    "jscover": "*",
     "supertest": "*"
   },
   "license": "MIT"

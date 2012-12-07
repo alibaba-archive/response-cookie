@@ -1,7 +1,8 @@
-response-cookie
+response-cookie [![Build Status](https://secure.travis-ci.org/fengmk2/response-cookie.png)](http://travis-ci.org/fengmk2/response-cookie)
 ===============
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/response-cookie.png)](http://travis-ci.org/fengmk2/response-cookie)
+![logo](https://raw.github.com/fengmk2/response-cookie/master/logo.png)
+
 cookie helpers for response. `connect` reponse cookie middleware.
 
 jscoverage: [100%](http://fengmk2.github.com/coverage/response-cookie.html)
