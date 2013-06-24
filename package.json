@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test-all",
+    "blanket": { "pattern": "response-cookie/lib" },
+    "travis-cov": { "threshold": 98 }
   },
   "repository": {
     "type": "git",
@@ -22,12 +24,16 @@
   ],
   "author": "fengmk2 <fengmk2@gmail.com>",
   "dependencies": {
-    "cookie": ">=0.0.4"
+    "cookie": ">=0.1.0",
+    "cookie-signature": ">=1.0.1"
   },
   "devDependencies": {
     "connect": "*",
     "mocha": "*",
-    "jscover": "*",
+    "blanket": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
     "supertest": "*"
   },
   "license": "MIT"
